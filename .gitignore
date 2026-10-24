@@ -1,0 +1,12 @@
+i# Ignore root-level files
+/*
+
+# Keep source files and Git configuration
+!/*.hs
+!/*.lhs
+!/.gitignore
+
+# Keep Haskell project files if needed
+!/*.cabal
+!/cabal.project
+!/stack.yaml
